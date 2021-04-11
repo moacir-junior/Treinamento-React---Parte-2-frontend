@@ -1,0 +1,27 @@
+.list {
+  padding: 1rem;
+
+  .list__title {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    justify-content: center;
+    padding: 0.6rem;
+  }
+  .list__page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+
+    .list__page__video {
+      height: 150;
+      margin-right: 0.5rem;
+      width: 300;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
