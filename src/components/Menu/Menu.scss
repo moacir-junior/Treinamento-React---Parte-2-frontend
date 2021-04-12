@@ -29,3 +29,19 @@
     }
   }
 }
+
+@media (max-width: 950px)
+{
+  .sidebar {
+    .sidebar__options {
+      flex-direction: column;
+      align-items: center;
+
+      .sidebar__options__item {
+        .sidebar__options__item__icon {
+          display: none;
+        }
+      }
+    }
+  }
+}
